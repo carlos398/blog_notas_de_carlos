@@ -1,0 +1,68 @@
+.NavContainer{
+    background-color: #7c7a7a5e;
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 65px;
+    height: 100%;
+    max-height: 350px;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 11px -3px rgba(0,0,0,0.75);
+}
+
+
+.NavContainer nav{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavContainer nav ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavContainer nav ul li{
+    width: 100%;
+    max-width: 60px;
+    min-width: 30px;
+    height: 100%;
+    max-height: 60px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #7c7a7a5e;
+    margin: 2.5px auto;
+}
+
+.NavContainer nav ul li:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.NavContainer nav ul li:hover a{
+    color: rgb(36, 35, 35);
+}
+
+.NavContainer nav ul li a{
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,19 +1,33 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./componentes/Nav";
+import Blog from "./pages/Blog";
+import Home from "./pages/Home";
+import Proyects from "./pages/Proyects";
 
+import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Las notas de Carlos</h1>
-      </header>
       <Router>
-        <Routes>
 
-        </Routes>
+        <header>
+          <h1>Las notas de Carlos</h1>
+          <Nav/>  
+        </header>
+
+        <main>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/proyects" element={<Proyects/>} />
+            <Route path="/blog" element={<Blog/>} />
+          </Routes>
+        </main>
+
       </Router>
+
       <footer>
-        
+        <p>Lorem ipsum dolor sit amet consectetur</p>
       </footer>
     </div>
   );
