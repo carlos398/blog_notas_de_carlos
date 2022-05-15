@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./componentes/Nav";
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
-import Proyects from "./pages/Proyects";
+import Projects from "./pages/Projects";
 
 import './css/App.css';
 
@@ -12,14 +12,14 @@ function App() {
       <Router>
 
         <header>
-          <h1>Las notas de Carlos</h1>
+          <h1>Notas de Carlos</h1>
           <Nav/>  
         </header>
 
         <main>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/proyects" element={<Proyects/>} />
+            <Route path="/proyects" element={<Projects/>} />
             <Route path="/blog" element={<Blog/>} />
           </Routes>
         </main>

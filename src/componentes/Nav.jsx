@@ -9,13 +9,13 @@ const Nav = () => {
         <nav>
             <ul>
                 <li>
-                    <NavLink to='/' activeClassName='active'><i class="fa-solid fa-house"></i></NavLink>
+                    <NavLink to='/'><i class="fa-solid fa-house"></i></NavLink>
                 </li>
                 <li>
-                    <NavLink to='/proyects' activeClassName='active'><i class="fas fa-laptop-house"></i></NavLink>
+                    <NavLink to='/projects'><i class="fas fa-laptop-house"></i></NavLink>
                 </li>
                 <li>
-                    <NavLink to='/blog' activeClassName='active'><i class="far fa-address-book"></i></NavLink>
+                    <NavLink to='/blog'><i class="far fa-address-book"></i></NavLink>
                 </li>
             </ul>
         </nav>
