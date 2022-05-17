@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='HomeContainer'>
       <div className='HeroContainer'>
-        <img src="" alt="" />
+        <img src={require('../imagenes/imagen1.jpeg')} alt="" />
         <h2>Titulo</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nostrum temporibus. Cum delectus unde, eveniet distinctio fugiat numquam consequatur aliquam excepturi? Esse sapiente nam natus! Soluta odio dolores sint fugiat maiores voluptas quos ea. Ab cupiditate veritatis quo voluptate excepturi reiciendis esse ipsum delectus, incidunt voluptatem iste ipsa molestias dolore.</p>
       </div>
@@ -15,7 +15,7 @@ const Home = () => {
 
           <div className='ProjectCard'>
             <div className="ProjectImg">
-              <img src="" alt="" />
+              <img src={require('../imagenes/imagen1.jpeg')} alt="" />
             </div>
             <div className="ProjectTitle">
               <h3>Titulo</h3>
@@ -32,7 +32,7 @@ const Home = () => {
         <h2>Blog</h2>
         <div className='BlogImg'>
           <h3>BlogTitle</h3>
-          <img src="" alt="" />
+          <img src={require('../imagenes/imagen1.jpeg')} alt="" />
         </div>
         <div className='BlogDescription'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, temporibus cupiditate dolorum autem totam sapiente, placeat optio quia, accusamus molestiae esse repellat architecto officiis dicta saepe. Reiciendis, repudiandae odio!</p>

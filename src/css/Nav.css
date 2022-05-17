@@ -1,6 +1,6 @@
 .NavContainer{
     background-color: #7c7a7a5e;
-    position: absolute;
+    position: fixed;
     top: 100px;
     right: 15px;
     width: 65px;
