@@ -1,12 +1,18 @@
 import React from 'react'
+import '../css/Home.css'
 
 const Home = () => {
+
   return (
     <div className='HomeContainer'>
       <div className='HeroContainer'>
-        <img src={require('../imagenes/imagen1.jpeg')} alt="" />
-        <h2>Titulo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nostrum temporibus. Cum delectus unde, eveniet distinctio fugiat numquam consequatur aliquam excepturi? Esse sapiente nam natus! Soluta odio dolores sint fugiat maiores voluptas quos ea. Ab cupiditate veritatis quo voluptate excepturi reiciendis esse ipsum delectus, incidunt voluptatem iste ipsa molestias dolore.</p>
+        <div className="HeroImg">
+          <img src={require('../imagenes/imagen1.jpeg')} alt="" />
+        </div>
+        <div className="HeroTxtContainer">
+          <h2>Titulo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, nostrum temporibus. Cum delectus unde, eveniet distinctio fugiat numquam consequatur aliquam excepturi? Esse sapiente nam natus! Soluta odio dolores sint fugiat maiores voluptas quos ea. Ab cupiditate veritatis quo voluptate excepturi reiciendis esse ipsum delectus, incidunt voluptatem iste ipsa molestias dolore.</p>
+        </div>
       </div>
 
       <div className='ProjectsContainer'>
